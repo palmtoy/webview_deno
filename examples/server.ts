@@ -1,3 +1,5 @@
+// deno run --unstable --allow-env --allow-read --allow-plugin --allow-net ./server.ts
+
 import { serve } from "https://deno.land/std@0.79.0/http/mod.ts";
 import { Webview } from "../mod.ts";
 

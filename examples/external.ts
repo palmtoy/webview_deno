@@ -1,3 +1,5 @@
+// deno run --unstable --allow-env --allow-read --allow-plugin ./external.ts
+
 import { Webview } from "../mod.ts";
 
 const html = `
